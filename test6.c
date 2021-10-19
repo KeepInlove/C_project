@@ -10,6 +10,19 @@ int main(int argc, char const *argv[]){
         sum=sum+i;
         i++;
     }
-    printf("sum=%d\n",sum);
+    printf("¡¾whileÓï¾ä¡¿sum=%d\n",sum);
+    int a,s=0;
+    for (a = 0; a < 10; a++)
+    {
+        /* code */
+        if (a%2==0)
+        {
+            /* code */
+            s+=a;
+        }else{
+            s-=a;
+        }
+    }
+    printf("¡¾forÓï¾ä¡¿s=%d\n",s);
     return 0;
 }
